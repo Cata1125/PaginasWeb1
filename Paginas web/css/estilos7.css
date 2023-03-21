@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 4;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(224, 50, 150);
+    text-align: center;
+}
+
+.dos{
+    margin-left: left;
+    margin-right: left;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: 1.5s all;
+}
+.dos:hover{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transform: translate(50%,0px);
+}
+
+.uno{
+    margin-left: left;
+    margin-right: left;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(00, 149, 50);
+    transition: 0.5s all;
+}
+.uno:hover{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(00, 162, 203);
+    transform:rotate(90deg);
+}

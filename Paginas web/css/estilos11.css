@@ -1,0 +1,22 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 5px 20px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(224, 206, 150);
+    text-align: left;
+}

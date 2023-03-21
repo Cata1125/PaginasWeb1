@@ -1,0 +1,49 @@
+/*
+Le coloco styles porque son los principales
+ */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.temas{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+
+.temas > a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:beige;(0, 253, 50);
+    text-align: left;
+    
+}
+.temas > a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:whitesmoke;(54, 12, 5);
+    color: white;
+    text-align: left;
+}
